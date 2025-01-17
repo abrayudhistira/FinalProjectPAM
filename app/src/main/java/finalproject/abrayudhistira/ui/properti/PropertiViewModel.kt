@@ -1,13 +1,13 @@
-package finalproject.abrayudhistira.ui.home
+package finalproject.abrayudhistira.ui.properti
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class PropertiViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "This is properti Fragment"
     }
     val text: LiveData<String> = _text
 }

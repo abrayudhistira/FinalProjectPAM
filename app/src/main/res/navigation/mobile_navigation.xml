@@ -3,23 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_properti">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="finalproject.abrayudhistira.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_pemilik"
+        android:name="finalproject.abrayudhistira.ui.pemilik.PemilikFragment"
+        android:label="@string/title_pemilik"
+        tools:layout="@layout/fragment_pemilik" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="finalproject.abrayudhistira.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_properti"
+        android:name="finalproject.abrayudhistira.ui.properti.PropertiFragment"
+        android:label="@string/title_properti"
+        tools:layout="@layout/fragment_properti" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="finalproject.abrayudhistira.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_jenisproperti"
+        android:name="finalproject.abrayudhistira.ui.jenisproperti.JenisPropertiFragment"
+        android:label="@string/title_jenisproperti"
+        tools:layout="@layout/fragment_jenis_properti" />
+    <fragment
+        android:id="@+id/navigation_manajerproperti"
+        android:name="finalproject.abrayudhistira.ui.manajerproperti.ManajerPropertiFragment"
+        android:label="@string/title_manajerproperti"
+        tools:layout="@layout/fragment_manajer_properti" />
 </navigation>

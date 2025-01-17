@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Management Property</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_properti">Properti</string>
+    <string name="title_pemilik">Pemilik</string>
+    <string name="title_manajerproperti">Manajer Properti</string>
+    <string name="title_jenisproperti">Jenis Properti</string>
 </resources>
