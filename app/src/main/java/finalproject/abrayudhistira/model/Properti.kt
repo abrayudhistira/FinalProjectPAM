@@ -3,7 +3,6 @@ package finalproject.abrayudhistira.model
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
-@Serializable
 //data class Properti(
 //    val id_properti: Int,
 //    val nama_properti: String,
@@ -19,6 +18,7 @@ import kotlinx.serialization.Serializable
 //    Tersewa,
 //    Dijual
 //}
+@Serializable
 data class Properti(
     val id_properti: Int,
     val nama_properti: String,
